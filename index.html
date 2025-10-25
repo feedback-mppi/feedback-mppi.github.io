@@ -193,6 +193,45 @@
   </button>
 
   <!-- More Works Dropdown -->
+  <div class="more-works-container">
+    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
+      <i class="fas fa-flask"></i>
+      More Works
+      <i class="fas fa-chevron-down dropdown-arrow"></i>
+    </button>
+    <div class="more-works-dropdown" id="moreWorksDropdown">
+      <div class="dropdown-header">
+        <h4>More works from us</h4>
+        <button class="close-btn" onclick="toggleMoreWorks()">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="works-list">
+        <!-- TODO: Replace with your lab's related works -->
+        <a href="https://link.springer.com/chapter/10.1007/978-3-032-08049-3_8" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>BC-MPPI: A Probabilistic Constraint Layer for Safe Model-Predictive Path-Integral Control</h5>
+            <!-- TODO: Replace with brief description -->
+            <!-- <p>Brief description of the work and its main contribution.</p> -->
+            <!-- TODO: Replace with venue and year -->
+            <span class="work-venue">2025 Workshop on Agents and Robots for reliable Engineered Autonomy (AREA)</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <!-- TODO: Add more related works or remove extra items -->
+        <a href="https://ieeexplore.ieee.org/abstract/document/10801698" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>On the Benefits of GPU Sample-Based Stochastic Predictive Controllers for Legged Locomotion</h5>
+            <!-- <p>Brief description of the work and its main contribution.</p> -->
+            <span class="work-venue"> 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+
+      </div>
+    </div>
+  </div>
+
 
 
   <main id="main-content">
